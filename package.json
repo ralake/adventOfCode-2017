@@ -1,0 +1,26 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "urlite": "^1.2.8"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "expect",
+      "it"
+    ]
+  }
+}
