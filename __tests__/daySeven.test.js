@@ -19,14 +19,14 @@ describe('programTower', () => {
   })
 
   describe('findUnbalancedWeight', () => {
-    it('finds the actual weifght a program would need to be to balance it correctly in the example case', () => {
+    it('finds the actual weight a program would need to be to balance it correctly in the example case', () => {
       const weight = programTower.findUnbalancedWeight(testInput)
       expect(weight).toEqual(60)
     })
 
-    // it('finds the actual weifght a program would need to be to balance it correctly in the test case', () => {
-    //   const weight = programTower.findUnbalancedWeight(programList)
-    //   expect(weight).toEqual(60)
-    // })
+    it('finds the actual weifght a program would need to be to balance it correctly in the test case', () => {
+      const weight = programTower.findUnbalancedWeight(programList)
+      expect(weight).toEqual(1072)
+    })
   })
 })
